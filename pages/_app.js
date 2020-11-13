@@ -10,6 +10,11 @@ function App({ Component, pageProps }) {
     <Layout>
       <Head>
         <title>Yomar Gutierrez | Fullstack Web Developer</title>
+        <meta
+          name="description"
+          content="Portafolio de Yomar Gutiérrez | Desarrollador Web Fullstack | Información profesional y de contacto"
+        />
+        <meta name="keywords" content="Portafolio, Desarollador Web, Fullstack, Reactjs, Nextjs" />
       </Head>
       <Component {...pageProps} />
     </Layout>
