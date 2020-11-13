@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    @apply bg-fondo;
+    @apply font-serif;
+  }
   a {
     @apply text-blue-600;
   }

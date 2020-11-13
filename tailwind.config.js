@@ -26,6 +26,7 @@ module.exports = {
 
       black: '#000',
       white: '#fff',
+      fondo: '#f6f6f2',
 
       gray: {
         100: '#f7fafc',
@@ -78,9 +79,9 @@ module.exports = {
         400: '#68d391',
         500: '#48bb78',
         600: '#38a169',
-        700: '#2f855a',
-        800: '#276749',
-        900: '#22543d',
+        700: '#c2edce',
+        800: '#6fb3b8',
+        900: '#388087',
       },
       teal: {
         100: '#e6fffa',
@@ -94,7 +95,7 @@ module.exports = {
         900: '#234e52',
       },
       blue: {
-        100: '#ebf8ff',
+        100: '#badfe7',
         200: '#bee3f8',
         300: '#90cdf4',
         400: '#63b3ed',
@@ -158,6 +159,8 @@ module.exports = {
       48: '12rem',
       56: '14rem',
       64: '16rem',
+      'page-width': '750px',
+      200: '200px',
     },
     backgroundColor: (theme) => theme('colors'),
     backgroundImage: {
@@ -245,6 +248,7 @@ module.exports = {
       auto: '1 1 auto',
       initial: '0 1 auto',
       none: 'none',
+      shrink: '1 0 auto',
     },
     flexGrow: {
       0: '0',
@@ -270,7 +274,7 @@ module.exports = {
         '"Segoe UI Symbol"',
         '"Noto Color Emoji"',
       ],
-      serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+      serif: ['Lato', 'Helvetica', 'Neue', 'Arial', 'Helvetica', 'serif'],
       mono: ['Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
     },
     fontSize: {
