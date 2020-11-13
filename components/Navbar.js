@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <ul className="w-full flex justify-center items-center h-16 md:border md:border-gray-400 md:shadow rounded-sm font-bold text-white bg-green-900">
+    <ul className="w-full text-sm md:text-base flex justify-center items-center h-16 md:border md:border-gray-400 md:shadow rounded-sm font-bold text-white bg-green-900">
       <Link href="/">
         <li className="p-4 cursor-pointer hover:bg-green-800">Inicio</li>
       </Link>
@@ -14,7 +14,7 @@ const Navbar = () => {
         <li className="p-4 cursor-pointer hover:bg-green-800">Habilidades</li>
       </Link>
       <Link href="/about">
-        <li className="p-4 cursor-pointer hover:bg-green-800">Sobre mi</li>
+        <li className="p-4 cursor-pointer hover:bg-green-800">Sobre mí</li>
       </Link>
     </ul>
   );
