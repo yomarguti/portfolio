@@ -15,7 +15,7 @@ const Home = () => {
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-green-900 inline">
           Yomar Gutiérrez
         </h1>
-        <h3 className="text-xl md:text-3xl text-gray-600 italic ">Fullstack Web Developer</h3>
+        <h3 className="text-xl md:text-3xl text-gray-600 italic ">Desarrollador Web</h3>
       </div>
     </div>
   );

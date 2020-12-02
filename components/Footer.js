@@ -15,7 +15,7 @@ const Footer = () => {
           </a>
         </li>
         <li className="px-4">
-          <a href="https://www.linkedin.com/in/yomar-gutierrez-7373b7181/" target="_blank">
+          <a href="https://www.linkedin.com/in/yomar-gutierrez/" target="_blank">
             <img src="/linkedin.svg" alt="Linkedin" />
           </a>
         </li>
