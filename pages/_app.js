@@ -9,12 +9,12 @@ function App({ Component, pageProps }) {
   return (
     <Layout>
       <Head>
-        <title>Yomar Gutierrez | Fullstack Web Developer</title>
+        <title>Yomar Gutierrez | Desarrollador Web</title>
         <meta
           name="description"
-          content="Portafolio de Yomar Gutiérrez | Desarrollador Web Fullstack | Información profesional y de contacto"
+          content="Portafolio de Yomar Gutiérrez | Desarrollador Web | Información profesional y de contacto"
         />
-        <meta name="keywords" content="Portafolio, Desarollador Web, Fullstack, Reactjs, Nextjs" />
+        <meta name="keywords" content="Portafolio, Desarollador Web, Reactjs, Nextjs" />
       </Head>
       <Component {...pageProps} />
     </Layout>
