@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div className="px-8 flex flex-col i md:flex-row md:items-end items-center pt-10">
+    <div className="flex flex-col items-center px-8 pt-10 i md:flex-row md:items-end">
       <div className="py-4 w-200">
         <img
           src="/perfil.jpg"
@@ -11,11 +11,11 @@ const Home = () => {
           className="rounded-lg shadow-md"
         />
       </div>
-      <div className="md:pl-4 flex flex-col items-center md:items-start md:justify-end py-4">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-green-900 inline">
+      <div className="flex flex-col items-center py-4 md:pl-4 md:items-start md:justify-end">
+        <h1 className="inline text-4xl font-bold md:text-5xl lg:text-6xl text-primary">
           Yomar Gutiérrez
         </h1>
-        <h3 className="text-xl md:text-3xl text-gray-600 italic ">Desarrollador Web</h3>
+        <h3 className="text-xl italic text-gray-600 md:text-3xl ">Desarrollador Web</h3>
       </div>
     </div>
   );

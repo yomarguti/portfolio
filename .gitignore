@@ -120,3 +120,4 @@ dist
 .next
 *.log
 .vscode/*
+tailwind.full.js

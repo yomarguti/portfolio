@@ -14,6 +14,12 @@ class MyDocument extends Document {
           <meta name="theme-color" content="#ffffff" />
           {/* {favicon} */}
           {/* {webfont} */}
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap"
+            rel="stylesheet"
+          />
+
           {/* {stylesheet} */}
           {/* {scriptjs} */}
         </Head>

@@ -14,4 +14,7 @@
   a:hover {
     @apply text-blue-800;
   }
+  nav li:hover {
+    @apply font-bold text-black;
+  }
 }
