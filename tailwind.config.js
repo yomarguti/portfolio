@@ -8,6 +8,10 @@ module.exports = {
         neutral: '#E4E4E7',
         primary: '#388087',
       },
+      spacing: {
+        'content-md': '45rem',
+        'content-lg': '55rem',
+      },
       fontFamily: {
         serif: ['Roboto', 'Helvetica', 'Neue', 'Arial', 'Helvetica', 'serif'],
       },

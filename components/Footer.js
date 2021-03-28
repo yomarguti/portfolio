@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div className="fixed bottom-0 flex flex-col items-center w-full pt-10 pb-2 border border-gray-300 bg-neutral">
+    <footer className="fixed bottom-0 flex flex-col items-center w-full pt-10 pb-2 border border-gray-300 bg-neutral">
       <ul className="flex justify-center pb-6">
         <li className="px-4 sm:px-6 md:px-9">
           <a href="mailto:yomar.guti@gmail.com" target="_blank">
@@ -35,7 +35,7 @@ const Footer = () => {
           www.flaticon.es
         </a>
       </div>
-    </div>
+    </footer>
   );
 };
 

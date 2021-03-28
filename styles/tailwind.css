@@ -7,11 +7,11 @@
     @apply bg-fondo;
     @apply font-serif;
   }
-  a {
+  footer a {
     @apply text-blue-600;
   }
 
-  a:hover {
+  footer a:hover {
     @apply text-blue-800;
   }
   nav li:hover {
