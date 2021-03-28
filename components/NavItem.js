@@ -5,8 +5,8 @@ const NavItem = ({ path, menuName }) => {
   const router = useRouter();
 
   const liClassName = `${
-    router.pathname === path && 'font-bold'
-  } px-4 transition-all duration-300 ease-in-out cursor-pointer sm:px-10 md:px-12 hover:text-black hover:font-bold`;
+    router.pathname === path ? 'font-bold text-primary ' : ''
+  } px-4 cursor-pointer sm:px-10 md:px-12 transition-all duration-300 ease-in-out`;
 
   return (
     <Link href={path}>
