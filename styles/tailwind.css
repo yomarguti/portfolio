@@ -18,4 +18,16 @@
   nav li:hover {
     @apply font-bold text-black;
   }
+
+  .post-data ul {
+    @apply py-6 pl-8 list-disc;
+  }
+
+  .post-data p {
+    @apply tracking-tight;
+  }
+
+  .post-data {
+    @apply pt-4;
+  }
 }
