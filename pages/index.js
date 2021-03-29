@@ -21,7 +21,7 @@ const Home = () => {
         </div>
       </section>
       <section className="w-full pt-5 sm:w-3/5 lg:w-skill-content">
-        <h1 className="text-xl font-bold text-center text-primary">My Skills</h1>
+        <h1 className="text-xl font-bold text-center text-gray-900">Skills</h1>
         <SkillList />
       </section>
     </main>
