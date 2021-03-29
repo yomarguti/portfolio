@@ -43,7 +43,7 @@ const SkillList = () => {
       {skills.map(({ name, image }) => {
         return (
           <li key={name} className="flex flex-col items-center">
-            <div className="w-2/6 p-1 border-2 rounded-full sm:w-3/6 border-primary">
+            <div className="w-2/6 p-1 border-2 rounded-full sm:w-20 border-primary">
               <img className="w-full h-auto rounded-full" src={image} alt={name} />
             </div>
             <h3 className="pt-2 font-semibold text-gray-400">{name}</h3>

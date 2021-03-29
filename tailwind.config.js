@@ -11,6 +11,7 @@ module.exports = {
       spacing: {
         'content-md': '45rem',
         'content-lg': '55rem',
+        'skill-content': '574px',
       },
       fontFamily: {
         serif: ['Roboto', 'Helvetica', 'Neue', 'Arial', 'Helvetica', 'serif'],

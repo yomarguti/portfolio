@@ -3,7 +3,7 @@ import SkillList from '@components/SkillList';
 
 const Home = () => {
   return (
-    <main className="flex flex-col items-center px-8 pt-10 sm:flex-row sm:items-start">
+    <main className="flex flex-col items-center px-8 pt-10 sm:justify-center sm:flex-row sm:items-start">
       <section className="flex flex-col items-center border-b sm:h-full sm:justify-center sm:border-0">
         <div className="py-4 w-200">
           <img
@@ -20,7 +20,7 @@ const Home = () => {
           <h3 className="text-xl italic text-gray-600 ">Web Developer</h3>
         </div>
       </section>
-      <section className="w-full pt-5 sm:w-3/5">
+      <section className="w-full pt-5 sm:w-3/5 lg:w-skill-content">
         <h1 className="text-xl font-bold text-center text-primary">My Skills</h1>
         <SkillList />
       </section>
