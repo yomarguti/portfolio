@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="fixed bottom-0 flex flex-col items-center w-full h-32 pt-10 pb-2 border border-gray-300 bg-neutral">
-      <ul className="flex justify-center pb-6">
+    <footer className="fixed bottom-0 flex flex-col items-center w-full h-24 pt-4 pb-2 border border-gray-300 sm:h-32 sm:pt-10 bg-neutral">
+      <ul className="flex justify-center pb-3 sm:pb-6">
         <li className="px-4 sm:px-6 md:px-9">
           <a href="mailto:yomar.guti@gmail.com" target="_blank">
             <img src="/correo.svg" alt="Correo electronico" />
