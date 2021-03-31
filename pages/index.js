@@ -3,8 +3,8 @@ import SkillList from '@components/SkillList';
 
 const Home = () => {
   return (
-    <main className="flex flex-col items-center px-8 pt-10 sm:justify-center sm:flex-row sm:items-start">
-      <section className="flex flex-col items-center border-b sm:h-full sm:justify-center sm:border-0">
+    <main className="flex flex-col items-center px-8 pt-10 sm:items-start md:items-center sm:justify-center sm:flex-row">
+      <section className="flex flex-col items-center border-b sm:pt-24 sm:h-full sm:justify-center sm:border-0">
         <div className="py-4 w-200">
           <img
             src="/perfil.jpg"
